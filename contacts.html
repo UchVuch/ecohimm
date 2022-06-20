@@ -98,14 +98,23 @@
         <span class="body-text">Остались вопросы?</span><br>
         Заполните форму
     </h2>
-    <form action="#" class="form" method="POST" enctype="multipart/form-data">
+    <form action="#" class="form form-validate--second" method="POST">
+        <p class="modal__item-title">
+            Введите Ваше ФИО
+        </p>
         <label class="form__label">
-            <input class="input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Введите Ваше ФИО">
+            <input class="input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Фамилия Имя Отчество">
         </label>
+        <p class="modal__item-title">
+            Введите Ваш email
+        </p>
         <label class="form__label">
             <input class="input input-mail" type="email" data-validate-field="email" name="Email"
-                placeholder="Введите Ваш email">
+                placeholder="business@gmail.com">
         </label>
+        <p class="modal__item-title">
+            Введите Ваш телефон
+        </p>
         <label class="form__label">
             <input class="input input-tel" type="tel" data-validate-field="tel" name="Телефон"
                 placeholder="Введите Ваш телефон">
@@ -152,7 +161,7 @@
 </footer> 
         <div class="modal">
     <div class="modal__overlay">
-        <form class="modal__inner">
+        <form action="#" class="modal__inner form-validate--first" method="POST">
             <button class="modal-button-close"></button>
             <div class="modal__title">
                 Заказать звонок
@@ -163,18 +172,18 @@
             <div class="modal__items">
                 <div class="modal__item">
                     <p class="modal__item-title">
-                        Телефон
+                        Введите Ваш телефон
                     </p>
                     <label class="form__label">
-                        <input class="modal__input" type="tel" data-validate-field="tel" name="Телефон" placeholder="Укажите Ваш телефон">
+                        <input class="modal__input input-tel" type="tel" data-validate-field="tel" name="Телефон" placeholder="+7 (999) 999-99-99">
                     </label>
                 </div>
                 <div class="modal__item">
                     <p class="modal__item-title">
-                        Имя
+                        Введите Ваше Имя
                     </p>
                     <label class="form__label">
-                        <input class="modal__input" type="text" data-validate-field="name" name="Имя" placeholder="Укажите Ваше имя">
+                        <input class="modal__input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Илья">
                     </label>
                 </div>
             </div>

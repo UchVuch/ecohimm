@@ -64,158 +64,573 @@
         </span>
     </h2>
     <div class="industries__wrap">
-        <ul class="industries__left-list">
-            <li class="industries__left-item">
-                <a class="industries__left-link" href="#!">Продукция пожарно-технического назначения </a>
+        <ul class="industries__left-list tabs-nav">
+            <li class="industries__left-item is-active" data-tab-name="tab-1">
+                Продукция пожарно-технического назначения
             </li>
-            <li class="industries__left-item">
-                <a class="industries__left-link" href="#!">Составы для подготовки поверхности </a>
+            <li class="industries__left-item" data-tab-name="tab-2">
+                Составы для подготовки поверхности
             </li>
-            <li class="industries__left-item">
-                <a class="industries__left-link" href="#!">Смазочно-охлаждающие составы и технологические смазки </a>
+            <li class="industries__left-item" data-tab-name="tab-3">
+                Смазочно-охлаждающие составы и технологические смазки
             </li>
-            <li class="industries__left-item">
-                <a class="industries__left-link" href="#!">Химия для предприятий пищевой промышленности и животноводства
-                </a>
+            <li class="industries__left-item" data-tab-name="tab-4">
+                Химия для предприятий пищевой промышленности и животноводства
             </li>
         </ul>
-        <div class="apartmens">
-            <div class="apartmens__filter">
-                <button class="apartmens__button" data-filter="all" aria-label="Более 100 млн">
-                    Все
-                </button>
-                <button class="apartmens__button" data-filter=".category-d" aria-label="Показать все">
-                    Огнетушащие порошки
-                </button>
-                <button class="apartmens__button" data-filter=".category-a" aria-label="От 20-30 млн">
-                    Заряды к воздушно-пенным огнетушителям
-                </button>
-                <button class="apartmens__button" data-filter=".category-b" aria-label="От 30-50 млн">
-                    Огнетушашие составы
-                </button>
-                <button class="apartmens__button" data-filter=".category-c" aria-label="От 50-100 млн">
-                    Огнебиозащита древесины
-                </button>
+        <div class="apartmens__wrap">
+            <div class="apartmens tab-1 is-active">
+                <div class="apartmens__filter">
+                    <button class="apartmens__button" data-filter="all" aria-label="Более 100 млн">
+                        Все
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-d" aria-label="Показать все">
+                        Огнетушащие порошки
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-a" aria-label="От 20-30 млн">
+                        Заряды к воздушно-пенным огнетушителям
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-b" aria-label="От 30-50 млн">
+                        Огнетушашие составы
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-c" aria-label="От 50-100 млн">
+                        Огнебиозащита древесины
+                    </button>
+                </div>
+                <ul class="apartmens__list apartmens__list1">
+                    <li class="apartmens__item apartment mix category-d" data-order="1">
+
+                        <img src="images/pojar/11.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ЛИКВИД®-АВСЕ
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-d">
+
+                        <img src="images/pojar/12.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ПХК
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-d">
+
+                        <img src="images/pojar/13.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-Д2
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-d">
+
+                        <img src="images/pojar/14.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-АВС 50 (по EN 615)
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-a">
+
+                        <img src="images/pojar/21.jpg" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Заряд к воздушно-пенному огнетушителю ОВП
+                            </h3>
+                            <p class="apartment__lot">
+
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-b">
+
+                        <img src="images/pojar/31.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий состав
+                            </h3>
+                            <p class="apartment__lot">
+                                ОС-5
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-c">
+
+                        <img src="images/pojar/41.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Отбеливатель для древесины
+                            </h3>
+                            <p class="apartment__lot">
+                                Эдельвейс®-Профи
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                </ul>
             </div>
-            <ul class="apartmens__list">
-                <li class="apartmens__item apartment mix category-d" data-order="1">
-
-                    <img src="images/pojar/11.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Огнетушащий порошок
-                        </h3>
-                        <p class="apartment__lot">
-                            ЛИКВИД®-АВСЕ
-                        </p>
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+            <div class="apartmens tab-2">
+                <div class="apartmens__filter">
+                    <button class="apartmens__button" data-filter="all" aria-label="Более 100 млн">
+                        Все
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-d">
-
-                    <img src="images/pojar/12.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Огнетушащий порошок
-                        </h3>
-                        <p class="apartment__lot">
-                            ПХК
-                        </p>
-
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                    <button class="apartmens__button" data-filter=".category-11" aria-label="Показать все">
+                        11
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-d">
-
-                    <img src="images/pojar/13.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Огнетушащий порошок
-                        </h3>
-                        <p class="apartment__lot">
-                            Вексон®-Д2
-                        </p>
-
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                    <button class="apartmens__button" data-filter=".category-12" aria-label="От 20-30 млн">
+                        12
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-d">
-
-                    <img src="images/pojar/14.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Огнетушащий порошок
-                        </h3>
-                        <p class="apartment__lot">
-                            Вексон®-АВС 50 (по EN 615)
-                        </p>
-
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                    <button class="apartmens__button" data-filter=".category-13" aria-label="От 30-50 млн">
+                        13
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-a">
-
-                    <img src="images/pojar/21.jpg" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Заряд к воздушно-пенному огнетушителю ОВП
-                        </h3>
-                        <p class="apartment__lot">
-                           
-                        </p>
-
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                    <button class="apartmens__button" data-filter=".category-14" aria-label="От 50-100 млн">
+                        14
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-b">
+                </div>
+                <ul class="apartmens__list apartmens__list2">
+                    <li class="apartmens__item apartment mix category-11" data-order="1">
 
-                    <img src="images/pojar/31.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+                        <img src="images/pojar/11.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
 
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Огнетушащий состав
-                        </h3>
-                        <p class="apartment__lot">
-                            ОС-5
-                        </p>
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ЛИКВИД®-АВСЕ
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-11">
 
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                        <img src="images/pojar/12.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ПХК
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-11">
+
+                        <img src="images/pojar/13.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-Д2
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-11">
+
+                        <img src="images/pojar/14.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-АВС 50 (по EN 615)
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-12">
+
+                        <img src="images/pojar/21.jpg" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Заряд к воздушно-пенному огнетушителю ОВП
+                            </h3>
+                            <p class="apartment__lot">
+
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-13">
+
+                        <img src="images/pojar/31.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий состав
+                            </h3>
+                            <p class="apartment__lot">
+                                ОС-5
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-14">
+
+                        <img src="images/pojar/41.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Отбеливатель для древесины
+                            </h3>
+                            <p class="apartment__lot">
+                                Эдельвейс®-Профи
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="apartmens tab-3">
+                <div class="apartmens__filter">
+                    <button class="apartmens__button" data-filter="all" aria-label="Более 100 млн">
+                        Все
                     </button>
-                </li>
-                <li class="apartmens__item apartment mix category-c">
-
-                    <img src="images/pojar/41.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
-
-                    <div class="apartment__content">
-                        <h3 class="apartment__title">
-                            Отбеливатель для древесины
-                        </h3>
-                        <p class="apartment__lot">
-                            Эдельвейс®-Профи
-                        </p>
-                    </div>
-                    <button class="apartment__button" aria-label="Назначить просмотр">
-                        Узнать цену
+                    <button class="apartmens__button" data-filter=".category-21" aria-label="Показать все">
+                        21
                     </button>
-                </li>
-            </ul>
+                    <button class="apartmens__button" data-filter=".category-22" aria-label="От 20-30 млн">
+                        22
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-23" aria-label="От 30-50 млн">
+                        23
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-24" aria-label="От 50-100 млн">
+                        24
+                    </button>
+                </div>
+                <ul class="apartmens__list apartmens__list3">
+                    <li class="apartmens__item apartment mix category-21" data-order="1">
+
+                        <img src="images/pojar/11.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ЛИКВИД®-АВСЕ
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-21">
+
+                        <img src="images/pojar/12.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ПХК
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-21">
+
+                        <img src="images/pojar/13.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-Д2
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-21">
+
+                        <img src="images/pojar/14.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-АВС 50 (по EN 615)
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-22">
+
+                        <img src="images/pojar/21.jpg" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Заряд к воздушно-пенному огнетушителю ОВП
+                            </h3>
+                            <p class="apartment__lot">
+
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-23">
+
+                        <img src="images/pojar/31.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий состав
+                            </h3>
+                            <p class="apartment__lot">
+                                ОС-5
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-24">
+
+                        <img src="images/pojar/41.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Отбеливатель для древесины
+                            </h3>
+                            <p class="apartment__lot">
+                                Эдельвейс®-Профи
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="apartmens tab-4">
+                <div class="apartmens__filter">
+                    <button class="apartmens__button" data-filter="all" aria-label="Более 100 млн">
+                        Все
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-31" aria-label="Показать все">
+                        31
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-32" aria-label="От 20-30 млн">
+                        32
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-33" aria-label="От 30-50 млн">
+                        33
+                    </button>
+                    <button class="apartmens__button" data-filter=".category-34" aria-label="От 50-100 млн">
+                        34
+                    </button>
+                </div>
+                <ul class="apartmens__list apartmens__list4">
+                    <li class="apartmens__item apartment mix category-31" data-order="1">
+
+                        <img src="images/pojar/11.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ЛИКВИД®-АВСЕ
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-31">
+
+                        <img src="images/pojar/12.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                ПХК
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-31">
+
+                        <img src="images/pojar/13.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-Д2
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-31">
+
+                        <img src="images/pojar/14.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий порошок
+                            </h3>
+                            <p class="apartment__lot">
+                                Вексон®-АВС 50 (по EN 615)
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-32">
+
+                        <img src="images/pojar/21.jpg" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Заряд к воздушно-пенному огнетушителю ОВП
+                            </h3>
+                            <p class="apartment__lot">
+
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-33">
+
+                        <img src="images/pojar/31.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Огнетушащий состав
+                            </h3>
+                            <p class="apartment__lot">
+                                ОС-5
+                            </p>
+
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                    <li class="apartmens__item apartment mix category-34">
+
+                        <img src="images/pojar/41.png" width="281" height="281" alt="Апартаменты в «башне ОКО»">
+
+                        <div class="apartment__content">
+                            <h3 class="apartment__title">
+                                Отбеливатель для древесины
+                            </h3>
+                            <p class="apartment__lot">
+                                Эдельвейс®-Профи
+                            </p>
+                        </div>
+                        <button class="apartment__button" aria-label="Назначить просмотр">
+                            Узнать цену
+                        </button>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
@@ -253,7 +668,7 @@
 </footer> 
         <div class="modal">
     <div class="modal__overlay">
-        <form class="modal__inner">
+        <form action="#" class="modal__inner form-validate--first" method="POST">
             <button class="modal-button-close"></button>
             <div class="modal__title">
                 Заказать звонок
@@ -264,18 +679,18 @@
             <div class="modal__items">
                 <div class="modal__item">
                     <p class="modal__item-title">
-                        Телефон
+                        Введите Ваш телефон
                     </p>
                     <label class="form__label">
-                        <input class="modal__input" type="tel" data-validate-field="tel" name="Телефон" placeholder="Укажите Ваш телефон">
+                        <input class="modal__input input-tel" type="tel" data-validate-field="tel" name="Телефон" placeholder="+7 (999) 999-99-99">
                     </label>
                 </div>
                 <div class="modal__item">
                     <p class="modal__item-title">
-                        Имя
+                        Введите Ваше Имя
                     </p>
                     <label class="form__label">
-                        <input class="modal__input" type="text" data-validate-field="name" name="Имя" placeholder="Укажите Ваше имя">
+                        <input class="modal__input input-name" type="text" data-validate-field="name" name="Имя" placeholder="Илья">
                     </label>
                 </div>
             </div>
